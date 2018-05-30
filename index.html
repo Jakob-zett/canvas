@@ -3,18 +3,47 @@ layout: default
 title: Canvas168
 ---
 
- <body onload="return ran_col()">
-		 <div id="mainpage">
-		 	<h1>test</h1>
+
+<body onload="return ran_col()">
+        <div id="mainpage">
+            <div class="wrapper" >
+                <div class="content">
+                    <h1 id="logo">canvas 168 </h1> 
+                    <p class="description">Canvas168.com will literally be the placeholder for great work. <br> For exactly one week, 168 hours, it will be completly up to you what will be on the website. <br>A canvas for the best new creators to be discovered every week.
+                    <h2 class="descriptionheader">Creative without limitation. </h2>
+                    <p class="description"> canvas168 can show your new project, the landing page of your youtube chanel, your startup, or your kickastarter project, your writing, your photogrpahy.....you get it. It's all yours. Without limitations.<p>
+                    <h2 class="descriptionheader">But who decides what is good work and what isn't? </h2>
+                    <p class="description"> Only the best of course! If you get selected for this weeks canvas, you will also be able to join our community. You will get to know the best creators and become part of the growing Canvas Creator Comitee to decide and vote about the best new entries. </p>
+                    <button type="button" class="descriptionheader" href="https://goo.gl/forms/tQO0erXbAFAPNyji2">Submit your work! </button>
+                </div>
+            </div>
+
+            <div class="go">
+                   <a class="button"><span>canvas 168<br> </span></a>
+                </div>
+            </div>
         </div>
+        
 
-        <script type="text/javascript">
-            function ran_col() { //function name
-                var color = '#'; // hexadecimal starting symbol
-                var letters = ['000000','FF0000','00FF00','0000FF','FFFF00','00FFFF','FF00FF','C0C0C0']; //Set your colors here
-                color += letters[Math.floor(Math.random() * letters.length)];
-                document.getElementById('mainpage').style.background = color; // Setting the random color on your div element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+    function ran_col() { //function name
+    var color = '#'; // hexadecimal starting symbol
+    var letters = ['FFFFFF','0B7A75','FF6700','515151','E6E6FA','fae596','98dafc','729f98']; //Set your colors here
+    color += letters[Math.floor(Math.random() * letters.length)];
+    document.getElementById('mainpage').style.background = color; // Setting the random color on your div element.
             }
-</script>
-
- </body> 
+    </script>
+</body>
